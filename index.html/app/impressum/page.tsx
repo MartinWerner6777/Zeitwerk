@@ -23,13 +23,13 @@ export default function ImpressumPage() {
               Anbieter
             </h2>
             <p className="mt-2">
-              Martin Werner
+              Martin Til Werner
               <br />
               Zeitwerk
               <br />
-              [Straße und Hausnummer einfügen]
+              Bergedorfer Str. 136
               <br />
-              [Postleitzahl und Ort einfügen]
+              12621 Berlin
               <br />
               Deutschland
             </p>
@@ -40,9 +40,13 @@ export default function ImpressumPage() {
               Kontakt
             </h2>
             <p className="mt-2">
-              E-Mail: hallo@zeitwerk.de
-              <br />
-              Telefon: [Telefonnummer einfügen]
+              E-Mail:{" "}
+              <a
+                href="mailto:martin.zeitwerk@gmail.com"
+                className="underline decoration-messing decoration-2 underline-offset-4"
+              >
+                martin.zeitwerk@gmail.com
+              </a>
             </p>
           </div>
 
@@ -51,10 +55,8 @@ export default function ImpressumPage() {
               Umsatzsteuer
             </h2>
             <p className="mt-2">
-              [Falls Kleinunternehmer nach § 19 UStG: „Gemäß § 19 UStG wird
-              keine Umsatzsteuer berechnet." Andernfalls
               Umsatzsteuer-Identifikationsnummer gemäß § 27 a
-              Umsatzsteuergesetz einfügen.]
+              Umsatzsteuergesetz: [USt-IdNr. beantragt]
             </p>
           </div>
 
@@ -63,7 +65,7 @@ export default function ImpressumPage() {
               Verantwortlich für den Inhalt
             </h2>
             <p className="mt-2">
-              Martin Werner (Anschrift wie oben)
+              Martin Til Werner (Anschrift wie oben)
             </p>
           </div>
 
@@ -88,15 +90,10 @@ export default function ImpressumPage() {
             </p>
           </div>
 
-          <div className="rounded-sm border border-dashed border-tinte/25 bg-papier2 p-5 text-sm text-tinte/60">
-            <strong className="text-tinte/80">Hinweis:</strong> Die
-            eckigen Klammern sind Platzhalter für Angaben, die ich nicht
-            kenne (vollständige Anschrift, Telefonnummer,
-            Umsatzsteuer-Status). Bitte vor dem Live-Gang ausfüllen, denn ein
-            unvollständiges Impressum ist rechtlich nicht besser als gar
-            keins. Bei Unsicherheit zum Umsatzsteuer-Status oder zur
-            Rechtsform lohnt sich eine kurze Rücksprache mit einem
-            Steuerberater oder einer Steuerberaterin.
+          <div>
+            <p className="text-sm text-tinte/50">
+              Stand: August 2025
+            </p>
           </div>
         </div>
       </Container>

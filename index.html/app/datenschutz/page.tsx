@@ -20,15 +20,21 @@ export default function DatenschutzPage() {
               1. Verantwortlicher
             </h2>
             <p className="mt-2">
-              Martin Werner
+              Martin Til Werner
               <br />
               Zeitwerk
               <br />
-              [Straße und Hausnummer einfügen]
+              Bergedorfer Str. 136
               <br />
-              [Postleitzahl und Ort einfügen]
+              12621 Berlin
               <br />
-              E-Mail: hallo@zeitwerk.de
+              E-Mail:{" "}
+              <a
+                href="mailto:martin.zeitwerk@gmail.com"
+                className="underline decoration-messing decoration-2 underline-offset-4"
+              >
+                martin.zeitwerk@gmail.com
+              </a>
             </p>
           </div>
 
@@ -37,24 +43,32 @@ export default function DatenschutzPage() {
               2. Hosting
             </h2>
             <p className="mt-2">
-              Diese Website wird bei [Hosting-Anbieter einfügen, z. B.
-              Vercel Inc.] gehostet. Beim Aufruf der Website erhebt der
-              Hosting-Anbieter automatisch technische Server-Log-Daten
-              (u. a. IP-Adresse, Datum und Uhrzeit des Zugriffs,
-              aufgerufene Seite, verwendeter Browser). Diese Verarbeitung
-              erfolgt auf Grundlage unseres berechtigten Interesses an
-              einem technisch fehlerfreien und sicheren Betrieb der
-              Website (Art. 6 Abs. 1 lit. f DSGVO).
+              Diese Website wird bei Vercel Inc., 340 Pine Street, Suite
+              701, San Francisco, CA 94104, USA gehostet. Beim Aufruf der
+              Website erhebt der Hosting-Anbieter automatisch technische
+              Server-Log-Daten (u. a. IP-Adresse, Datum und Uhrzeit des
+              Zugriffs, aufgerufene Seite, verwendeter Browser). Diese
+              Verarbeitung erfolgt auf Grundlage unseres berechtigten
+              Interesses an einem technisch fehlerfreien und sicheren
+              Betrieb der Website (Art. 6 Abs. 1 lit. f DSGVO).
             </p>
-            <p className="mt-3 rounded-sm border border-dashed border-tinte/25 bg-papier2 p-4 text-sm text-tinte/60">
-              <strong className="text-tinte/80">Hinweis:</strong> Falls
-              der gewählte Hosting-Anbieter Server außerhalb der EU/des
-              EWR betreibt (z. B. in den USA), muss hier zusätzlich ein
-              Absatz zur Datenübermittlung in Drittländer und zur
-              Rechtsgrundlage (z. B. Standardvertragsklauseln) ergänzt
-              werden. Bitte beim finalen Hosting-Anbieter prüfen, im
-              Zweifel dessen eigene Datenschutzhinweise für Kunden als
-              Vorlage nutzen.
+            <p className="mt-3">
+              Da Vercel seinen Hauptsitz in den USA hat, kann es zu einer
+              Übermittlung von Daten in die USA kommen. Vercel hat sich
+              zur Einhaltung der EU-Standardvertragsklauseln (Standard
+              Contractual Clauses, SCC) verpflichtet, die ein angemessenes
+              Schutzniveau bei der Datenübermittlung in Drittländer
+              gewährleisten. Weitere Informationen findest du in der
+              Datenschutzrichtlinie von Vercel:{" "}
+              <a
+                href="https://vercel.com/legal/privacy-policy"
+                className="underline decoration-messing decoration-2 underline-offset-4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                vercel.com/legal/privacy-policy
+              </a>
+              .
             </p>
           </div>
 
@@ -90,18 +104,9 @@ export default function DatenschutzPage() {
             <p className="mt-3">
               Deine Angaben werden gelöscht, sobald sie für die
               Bearbeitung deiner Anfrage nicht mehr erforderlich sind,
-              spätestens nach [Aufbewahrungsfrist festlegen, z. B. 12
-              Monate], vorbehaltlich gesetzlicher Aufbewahrungspflichten
-              (z. B. aus dem Handels- oder Steuerrecht bei
-              zustandegekommenen Aufträgen).
-            </p>
-            <p className="mt-3 rounded-sm border border-dashed border-tinte/25 bg-papier2 p-4 text-sm text-tinte/60">
-              <strong className="text-tinte/80">Hinweis:</strong> Sobald
-              der E-Mail-Versand für das Formular technisch aktiv
-              geschaltet wird (siehe README im Projekt), hier ergänzen,
-              über welchen Dienst (z. B. Resend) der Versand läuft, denn auch
-              dieser Anbieter gehört als Auftragsverarbeiter in diese
-              Erklärung.
+              spätestens nach 12 Monaten, vorbehaltlich gesetzlicher
+              Aufbewahrungspflichten (z. B. aus dem Handels- oder
+              Steuerrecht bei zustandegekommenen Aufträgen).
             </p>
           </div>
 
@@ -143,8 +148,8 @@ export default function DatenschutzPage() {
               Verarbeitung (Art. 18 DSGVO), Datenübertragbarkeit (Art. 20
               DSGVO) sowie Widerspruch gegen die Verarbeitung (Art. 21
               DSGVO). Wende dich dazu gerne an{" "}
-              <a href="mailto:hallo@zeitwerk.de" className="underline decoration-messing decoration-2 underline-offset-4">
-                hallo@zeitwerk.de
+              <a href="mailto:martin.zeitwerk@gmail.com" className="underline decoration-messing decoration-2 underline-offset-4">
+                martin.zeitwerk@gmail.com
               </a>
               .
             </p>
@@ -156,18 +161,10 @@ export default function DatenschutzPage() {
             </p>
           </div>
 
-          <div className="rounded-sm border border-dashed border-tinte/25 bg-papier2 p-5 text-sm text-tinte/60">
-            <strong className="text-tinte/80">Wichtiger Hinweis:</strong>{" "}
-            Diese Erklärung deckt den aktuellen, bekannten Stand der
-            Website ab. Die eckigen Klammern sind Platzhalter für Angaben,
-            die von deiner endgültigen Anschrift und deinem gewählten
-            Hosting-/E-Mail-Anbieter abhängen, bitte vor dem Live-Gang
-            ausfüllen. Ich bin kein Anwalt: Für eine rechtssichere
-            Datenschutzerklärung empfehle ich, das Ergebnis einmal von
-            einem Anwalt oder einer Anwältin für Datenschutzrecht prüfen
-            zu lassen, insbesondere sobald Analyse-Tools, Werbe-Pixel
-            oder ein externer Hosting-/Mail-Anbieter außerhalb der EU
-            hinzukommen.
+          <div>
+            <p className="text-sm text-tinte/50">
+              Stand: August 2025
+            </p>
           </div>
         </div>
       </Container>
